@@ -1,0 +1,28 @@
+# config.toml voor een Hugo site op Netlify
+
+baseURL = "https://jouwsite.netlify.app/"
+languageCode = "nl-nl"
+title = "Mijn Hugo Blog"
+theme = "ananke"  # Zorg dat je dit thema hebt toegevoegd aan themes/ananke
+paginate = 5       # aantal posts per pagina
+
+# Metadata voor de site
+[params]
+  author = "Jouw Naam"
+  description = "Een persoonlijke blog gemaakt met Hugo en Netlify"
+
+# Menu
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Blog"
+    url = "/posts/"
+    weight = 2
+
+# Build settings voor Netlify (optioneel, kan ook in netlify.toml)
+[build]
+  publishDir = "public"
