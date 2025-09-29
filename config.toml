@@ -1,7 +1,6 @@
 baseURL = "https://example.com/"
 languageCode = "nl-nl"
 title = "Mijn Hugo Blog"
-paginate = 5
 
 [params]
   author = "Jouw Naam"
