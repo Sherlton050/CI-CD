@@ -10,4 +10,4 @@ publish = "public"
 command = """\
   git config core.quotepath false && \
   hugo --gc --minify --baseURL "${URL}"
-"""
+  """
