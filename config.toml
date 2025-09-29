@@ -1,10 +1,10 @@
-# config.toml voor een Hugo site op Netlify
+# config.toml voor Hugo met thema Ananke
 
-baseURL = "https://jouwsite.netlify.app/"
+baseURL = "https://example.com/"   # tijdelijke placeholder, later vervangen door Netlify domein
 languageCode = "nl-nl"
 title = "Mijn Hugo Blog"
-theme = "ananke"  # Zorg dat je dit thema hebt toegevoegd aan themes/ananke
-paginate = 5       # aantal posts per pagina
+theme = "ananke"
+paginate = 5
 
 # Metadata voor de site
 [params]
@@ -23,6 +23,6 @@ paginate = 5       # aantal posts per pagina
     url = "/posts/"
     weight = 2
 
-# Build settings voor Netlify (optioneel, kan ook in netlify.toml)
+# Build settings voor Netlify (optioneel)
 [build]
   publishDir = "public"
