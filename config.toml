@@ -1,17 +1,13 @@
-# config.toml voor Hugo met thema Ananke
-
-baseURL = "https://example.com/"   # tijdelijke placeholder, later vervangen door Netlify domein
+baseURL = "https://example.com/"   # tijdelijk, later vervangen door Netlify URL
 languageCode = "nl-nl"
 title = "Mijn Hugo Blog"
 theme = "ananke"
 paginate = 5
 
-# Metadata voor de site
 [params]
   author = "Jouw Naam"
   description = "Een persoonlijke blog gemaakt met Hugo en Netlify"
 
-# Menu
 [menu]
   [[menu.main]]
     name = "Home"
@@ -23,6 +19,5 @@ paginate = 5
     url = "/posts/"
     weight = 2
 
-# Build settings voor Netlify (optioneel)
 [build]
   publishDir = "public"

@@ -1,13 +1,11 @@
-# netlify.toml voor een Hugo site met thema Ananke
+
 
 [build]
-  # Hugo build command
+
   command = "hugo"
   
-  # Public folder die Hugo genereert
   publish = "public"
 
-# Eventuele environment variables
+
 [build.environment]
-  HUGO_VERSION = "0.116.0"  # kies een geldige Hugo-versie ondersteund door Netlify
-  # GO_VERSION kan weggelaten worden; Netlify gebruikt standaard een geldige versie
+  HUGO_VERSION = "0.116.0"
