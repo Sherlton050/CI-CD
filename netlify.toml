@@ -8,4 +8,4 @@
 
 
 [build.environment]
-  HUGO_VERSION = "0.116.0" 0
+  HUGO_VERSION = "0.116.0"
