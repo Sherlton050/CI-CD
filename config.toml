@@ -1,23 +1,8 @@
-baseURL = "https://example.com/"   # tijdelijk, later vervangen door Netlify URL
+baseURL = "https://example.com/"
 languageCode = "nl-nl"
 title = "Mijn Hugo Blog"
-theme = "ananke"
 paginate = 5
 
 [params]
   author = "Jouw Naam"
   description = "Een persoonlijke blog gemaakt met Hugo en Netlify"
-
-[menu]
-  [[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 1
-
-  [[menu.main]]
-    name = "Blog"
-    url = "/posts/"
-    weight = 2
-
-[build]
-  publishDir = "public"
