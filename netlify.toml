@@ -1,13 +1,13 @@
-[build.environment]
-DART_SASS_VERSION = "1.92.1"
-GO_VERSION = "1.25.1"
-HUGO_VERSION = "0.150.0"
-NODE_VERSION = "22.18.0"
-TZ = "Europe/Oslo"
+# netlify.toml voor een Hugo site met thema Ananke
 
 [build]
-publish = "public"
-command = """\
-  git config core.quotepath false && \
-  hugo --gc --minify --baseURL "${URL}"
-  """
+  # Hugo build command
+  command = "hugo"
+  
+  # Public folder die Hugo genereert
+  publish = "public"
+
+# Eventuele environment variables
+[build.environment]
+  HUGO_VERSION = "0.116.0"  # kies een geldige Hugo-versie ondersteund door Netlify
+  # GO_VERSION kan weggelaten worden; Netlify gebruikt standaard een geldige versie
